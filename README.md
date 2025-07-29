@@ -24,14 +24,16 @@ This program supports 12 unique patterns:
 - Minimum size for complex shapes (like pyramids or diamonds) is 3.
 
 ## Examples
-```Diamond (Size = 5):
+Diamond (Size = 5):
+```
     *
    ***
   *****
    ***
     *
 ```
-```Hollow Square (Size = 4):
+Hollow Square (Size = 4):
+```
 ****
 *  *
 *  *
