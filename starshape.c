@@ -2,7 +2,7 @@
 int main(){
     int n, z, a;
     int row, col;
-    printf("Wellcome to Star shape printer.\n1 for Square.\n2 for Hollow Square.\n3 for Right-angled triangle (left-aligned).\n4 for Right-angled triangle (right-aligned).\n5 for Inverted triangle (left-aligned).\n6 for Inverted triangle (right-aligned).\n7 for Full Pyramid.\n8 for Inverted Full Pyramid.\n9 for Full Hollow Pyramid.\n10 for Inverted Full Hollow Pyramid.\n11 for Diamond.\n12 for Hollow Diamond.\n");
+    printf("Welcome to Star shape printer.\n1 for Square.\n2 for Hollow Square.\n3 for Right-angled triangle (left-aligned).\n4 for Right-angled triangle (right-aligned).\n5 for Inverted triangle (left-aligned).\n6 for Inverted triangle (right-aligned).\n7 for Full Pyramid.\n8 for Inverted Full Pyramid.\n9 for Full Hollow Pyramid.\n10 for Inverted Full Hollow Pyramid.\n11 for Diamond.\n12 for Hollow Diamond.\n");
     scanf("%d",&n);
     switch (n)
     {
@@ -15,7 +15,7 @@ int main(){
                 printf("\n");
             }
         break;
-
+        
     case 2: printf("Enter the size of the Hollow Square:");
             scanf("%d",&a);
             for(row=1; row<=a; row++){
@@ -84,7 +84,7 @@ int main(){
                 printf("Invalid input! Full Pyramid needs an odd number.");
             }
             else if(a<3) {
-                printf("Invalid input! Size ust be 3 or more.");
+                printf("Invalid input! Size must be 3 or more.");
             }
             else{
                 for(row=1; row<=a; row++){
@@ -246,4 +246,5 @@ int main(){
         break;
     }
     return 0;
+
 }
